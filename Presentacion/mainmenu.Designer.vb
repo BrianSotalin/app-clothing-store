@@ -23,22 +23,32 @@ Partial Class mainmenu
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation4 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation1 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainmenu))
-        Dim Animation5 As AnimatorNS.Animation = New AnimatorNS.Animation()
-        Dim Animation6 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation2 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation3 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Me.pnltt = New System.Windows.Forms.Panel()
+        Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnexit = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.pnlopc = New System.Windows.Forms.Panel()
+        Me.gnreq = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.bfacrc = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.logo = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.gnformal = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.bfformal = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.btnmenu = New System.Windows.Forms.Button()
         Me.bfhome = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.bfacc = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.gnrap = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.bfdepr = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.bfurbano = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.gnhome = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.gnhoodie = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.gndepr = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.GunaDragControl1 = New Guna.UI.WinForms.GunaDragControl(Me.components)
         Me.GunaDragControl2 = New Guna.UI.WinForms.GunaDragControl(Me.components)
         Me.GunaDragControl3 = New Guna.UI.WinForms.GunaDragControl(Me.components)
@@ -47,17 +57,8 @@ Partial Class mainmenu
         Me.pnlcont = New System.Windows.Forms.Panel()
         Me.logoaa = New AnimatorNS.Animator(Me.components)
         Me.panela2 = New AnimatorNS.Animator(Me.components)
-        Me.gnreq = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.logo = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.gnformal = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.btnmenu = New System.Windows.Forms.Button()
-        Me.gnrap = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.gnhome = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.gnhoodie = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.gndepr = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.btnexit = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.pnltt.SuspendLayout()
+        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlopc.SuspendLayout()
         CType(Me.gnreq, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.logo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,7 +67,6 @@ Partial Class mainmenu
         CType(Me.gnhome, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gnhoodie, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gndepr, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnltt
@@ -85,6 +85,21 @@ Partial Class mainmenu
         Me.pnltt.Name = "pnltt"
         Me.pnltt.Size = New System.Drawing.Size(1000, 100)
         Me.pnltt.TabIndex = 0
+        '
+        'GunaCirclePictureBox1
+        '
+        Me.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White
+        Me.panela.SetDecoration(Me.GunaCirclePictureBox1, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.GunaCirclePictureBox1, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.GunaCirclePictureBox1, AnimatorNS.DecorationType.None)
+        Me.GunaCirclePictureBox1.Image = Global.login.My.Resources.Resources.traje
+        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(478, 35)
+        Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
+        Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(70, 60)
+        Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaCirclePictureBox1.TabIndex = 9
+        Me.GunaCirclePictureBox1.TabStop = False
+        Me.GunaCirclePictureBox1.UseTransfarantBackground = False
         '
         'Label3
         '
@@ -130,6 +145,34 @@ Partial Class mainmenu
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Trendy "
         '
+        'btnexit
+        '
+        Me.btnexit.ActiveBorderThickness = 1
+        Me.btnexit.ActiveCornerRadius = 20
+        Me.btnexit.ActiveFillColor = System.Drawing.Color.Transparent
+        Me.btnexit.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnexit.ActiveLineColor = System.Drawing.Color.Transparent
+        Me.btnexit.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.btnexit.BackgroundImage = CType(resources.GetObject("btnexit.BackgroundImage"), System.Drawing.Image)
+        Me.btnexit.ButtonText = "EXIT"
+        Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.btnexit, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.btnexit, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.btnexit, AnimatorNS.DecorationType.None)
+        Me.btnexit.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnexit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnexit.IdleBorderThickness = 1
+        Me.btnexit.IdleCornerRadius = 20
+        Me.btnexit.IdleFillColor = System.Drawing.Color.Transparent
+        Me.btnexit.IdleForecolor = System.Drawing.Color.Gray
+        Me.btnexit.IdleLineColor = System.Drawing.Color.Transparent
+        Me.btnexit.Location = New System.Drawing.Point(908, -2)
+        Me.btnexit.Margin = New System.Windows.Forms.Padding(5)
+        Me.btnexit.Name = "btnexit"
+        Me.btnexit.Size = New System.Drawing.Size(90, 41)
+        Me.btnexit.TabIndex = 2
+        Me.btnexit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'pnlopc
         '
         Me.pnlopc.BackColor = System.Drawing.Color.WhiteSmoke
@@ -157,6 +200,23 @@ Partial Class mainmenu
         Me.pnlopc.Name = "pnlopc"
         Me.pnlopc.Size = New System.Drawing.Size(180, 403)
         Me.pnlopc.TabIndex = 1
+        '
+        'gnreq
+        '
+        Me.gnreq.BaseColor = System.Drawing.Color.White
+        Me.gnreq.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.gnreq, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.gnreq, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.gnreq, AnimatorNS.DecorationType.None)
+        Me.gnreq.Image = Global.login.My.Resources.Resources.request
+        Me.gnreq.Location = New System.Drawing.Point(10, 345)
+        Me.gnreq.Name = "gnreq"
+        Me.gnreq.Size = New System.Drawing.Size(37, 37)
+        Me.gnreq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.gnreq.TabIndex = 7
+        Me.gnreq.TabStop = False
+        Me.gnreq.UseTransfarantBackground = False
+        Me.gnreq.Visible = False
         '
         'bfacrc
         '
@@ -195,6 +255,38 @@ Partial Class mainmenu
         Me.bfacrc.Textcolor = System.Drawing.Color.Black
         Me.bfacrc.TextFont = New System.Drawing.Font("Forte", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
+        'logo
+        '
+        Me.logo.BaseColor = System.Drawing.Color.White
+        Me.panela.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
+        Me.logo.Image = Global.login.My.Resources.Resources.traje
+        Me.logo.Location = New System.Drawing.Point(10, -2)
+        Me.logo.Name = "logo"
+        Me.logo.Size = New System.Drawing.Size(72, 66)
+        Me.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.logo.TabIndex = 2
+        Me.logo.TabStop = False
+        Me.logo.UseTransfarantBackground = False
+        '
+        'gnformal
+        '
+        Me.gnformal.BaseColor = System.Drawing.Color.White
+        Me.gnformal.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.gnformal, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.gnformal, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.gnformal, AnimatorNS.DecorationType.None)
+        Me.gnformal.Image = Global.login.My.Resources.Resources.suit
+        Me.gnformal.Location = New System.Drawing.Point(10, 125)
+        Me.gnformal.Name = "gnformal"
+        Me.gnformal.Size = New System.Drawing.Size(37, 37)
+        Me.gnformal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.gnformal.TabIndex = 6
+        Me.gnformal.TabStop = False
+        Me.gnformal.UseTransfarantBackground = False
+        Me.gnformal.Visible = False
+        '
         'bfformal
         '
         Me.bfformal.Activecolor = System.Drawing.Color.Transparent
@@ -231,6 +323,22 @@ Partial Class mainmenu
         Me.bfformal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.bfformal.Textcolor = System.Drawing.Color.Black
         Me.bfformal.TextFont = New System.Drawing.Font("Forte", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        '
+        'btnmenu
+        '
+        Me.btnmenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnmenu.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.btnmenu.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela2.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
+        Me.btnmenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnmenu.Image = Global.login.My.Resources.Resources.menu
+        Me.btnmenu.Location = New System.Drawing.Point(132, 3)
+        Me.btnmenu.Name = "btnmenu"
+        Me.btnmenu.Size = New System.Drawing.Size(41, 36)
+        Me.btnmenu.TabIndex = 2
+        Me.btnmenu.UseVisualStyleBackColor = False
         '
         'bfhome
         '
@@ -316,6 +424,23 @@ Partial Class mainmenu
         Me.bfacc.Textcolor = System.Drawing.Color.Black
         Me.bfacc.TextFont = New System.Drawing.Font("Forte", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
+        'gnrap
+        '
+        Me.gnrap.BaseColor = System.Drawing.Color.White
+        Me.gnrap.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.gnrap, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.gnrap, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.gnrap, AnimatorNS.DecorationType.None)
+        Me.gnrap.Image = Global.login.My.Resources.Resources.rapero
+        Me.gnrap.Location = New System.Drawing.Point(10, 290)
+        Me.gnrap.Name = "gnrap"
+        Me.gnrap.Size = New System.Drawing.Size(37, 37)
+        Me.gnrap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.gnrap.TabIndex = 5
+        Me.gnrap.TabStop = False
+        Me.gnrap.UseTransfarantBackground = False
+        Me.gnrap.Visible = False
+        '
         'bfdepr
         '
         Me.bfdepr.Activecolor = System.Drawing.Color.Transparent
@@ -390,179 +515,6 @@ Partial Class mainmenu
         Me.bfurbano.Textcolor = System.Drawing.Color.Black
         Me.bfurbano.TextFont = New System.Drawing.Font("Forte", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
-        'GunaDragControl1
-        '
-        Me.GunaDragControl1.TargetControl = Me
-        '
-        'GunaDragControl2
-        '
-        Me.GunaDragControl2.TargetControl = Me.pnltt
-        '
-        'GunaDragControl3
-        '
-        Me.GunaDragControl3.TargetControl = Me.pnlopc
-        '
-        'GunaElipse1
-        '
-        Me.GunaElipse1.Radius = 15
-        Me.GunaElipse1.TargetControl = Me
-        '
-        'panela
-        '
-        Me.panela.AnimationType = AnimatorNS.AnimationType.HorizSlide
-        Me.panela.Cursor = Nothing
-        Animation4.AnimateOnlyDifferences = True
-        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
-        Animation4.LeafCoeff = 0!
-        Animation4.MaxTime = 1.0!
-        Animation4.MinTime = 0!
-        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
-        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
-        Animation4.MosaicSize = 0
-        Animation4.Padding = New System.Windows.Forms.Padding(0)
-        Animation4.RotateCoeff = 0!
-        Animation4.RotateLimit = 0!
-        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
-        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
-        Animation4.TimeCoeff = 0!
-        Animation4.TransparencyCoeff = 0!
-        Me.panela.DefaultAnimation = Animation4
-        Me.panela.Interval = 20
-        '
-        'pnlcont
-        '
-        Me.panela.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
-        Me.pnlcont.Location = New System.Drawing.Point(186, 107)
-        Me.pnlcont.Name = "pnlcont"
-        Me.pnlcont.Size = New System.Drawing.Size(805, 394)
-        Me.pnlcont.TabIndex = 2
-        '
-        'logoaa
-        '
-        Me.logoaa.AnimationType = AnimatorNS.AnimationType.Leaf
-        Me.logoaa.Cursor = Nothing
-        Animation5.AnimateOnlyDifferences = True
-        Animation5.BlindCoeff = CType(resources.GetObject("Animation5.BlindCoeff"), System.Drawing.PointF)
-        Animation5.LeafCoeff = 1.0!
-        Animation5.MaxTime = 1.0!
-        Animation5.MinTime = 0!
-        Animation5.MosaicCoeff = CType(resources.GetObject("Animation5.MosaicCoeff"), System.Drawing.PointF)
-        Animation5.MosaicShift = CType(resources.GetObject("Animation5.MosaicShift"), System.Drawing.PointF)
-        Animation5.MosaicSize = 0
-        Animation5.Padding = New System.Windows.Forms.Padding(0)
-        Animation5.RotateCoeff = 0!
-        Animation5.RotateLimit = 0!
-        Animation5.ScaleCoeff = CType(resources.GetObject("Animation5.ScaleCoeff"), System.Drawing.PointF)
-        Animation5.SlideCoeff = CType(resources.GetObject("Animation5.SlideCoeff"), System.Drawing.PointF)
-        Animation5.TimeCoeff = 0!
-        Animation5.TransparencyCoeff = 0!
-        Me.logoaa.DefaultAnimation = Animation5
-        '
-        'panela2
-        '
-        Me.panela2.AnimationType = AnimatorNS.AnimationType.HorizSlide
-        Me.panela2.Cursor = Nothing
-        Animation6.AnimateOnlyDifferences = True
-        Animation6.BlindCoeff = CType(resources.GetObject("Animation6.BlindCoeff"), System.Drawing.PointF)
-        Animation6.LeafCoeff = 0!
-        Animation6.MaxTime = 1.0!
-        Animation6.MinTime = 0!
-        Animation6.MosaicCoeff = CType(resources.GetObject("Animation6.MosaicCoeff"), System.Drawing.PointF)
-        Animation6.MosaicShift = CType(resources.GetObject("Animation6.MosaicShift"), System.Drawing.PointF)
-        Animation6.MosaicSize = 0
-        Animation6.Padding = New System.Windows.Forms.Padding(0)
-        Animation6.RotateCoeff = 0!
-        Animation6.RotateLimit = 0!
-        Animation6.ScaleCoeff = CType(resources.GetObject("Animation6.ScaleCoeff"), System.Drawing.PointF)
-        Animation6.SlideCoeff = CType(resources.GetObject("Animation6.SlideCoeff"), System.Drawing.PointF)
-        Animation6.TimeCoeff = 0!
-        Animation6.TransparencyCoeff = 0!
-        Me.panela2.DefaultAnimation = Animation6
-        '
-        'gnreq
-        '
-        Me.gnreq.BaseColor = System.Drawing.Color.White
-        Me.gnreq.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela.SetDecoration(Me.gnreq, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.gnreq, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.gnreq, AnimatorNS.DecorationType.None)
-        Me.gnreq.Image = Global.login.My.Resources.Resources.request
-        Me.gnreq.Location = New System.Drawing.Point(10, 345)
-        Me.gnreq.Name = "gnreq"
-        Me.gnreq.Size = New System.Drawing.Size(37, 37)
-        Me.gnreq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.gnreq.TabIndex = 7
-        Me.gnreq.TabStop = False
-        Me.gnreq.UseTransfarantBackground = False
-        Me.gnreq.Visible = False
-        '
-        'logo
-        '
-        Me.logo.BaseColor = System.Drawing.Color.White
-        Me.panela.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
-        Me.logo.Image = Global.login.My.Resources.Resources.traje
-        Me.logo.Location = New System.Drawing.Point(10, -2)
-        Me.logo.Name = "logo"
-        Me.logo.Size = New System.Drawing.Size(72, 66)
-        Me.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.logo.TabIndex = 2
-        Me.logo.TabStop = False
-        Me.logo.UseTransfarantBackground = False
-        '
-        'gnformal
-        '
-        Me.gnformal.BaseColor = System.Drawing.Color.White
-        Me.gnformal.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela.SetDecoration(Me.gnformal, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.gnformal, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.gnformal, AnimatorNS.DecorationType.None)
-        Me.gnformal.Image = Global.login.My.Resources.Resources.suit
-        Me.gnformal.Location = New System.Drawing.Point(10, 125)
-        Me.gnformal.Name = "gnformal"
-        Me.gnformal.Size = New System.Drawing.Size(37, 37)
-        Me.gnformal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.gnformal.TabIndex = 6
-        Me.gnformal.TabStop = False
-        Me.gnformal.UseTransfarantBackground = False
-        Me.gnformal.Visible = False
-        '
-        'btnmenu
-        '
-        Me.btnmenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnmenu.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btnmenu.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela2.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
-        Me.panela.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
-        Me.btnmenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnmenu.Image = Global.login.My.Resources.Resources.menu
-        Me.btnmenu.Location = New System.Drawing.Point(132, 3)
-        Me.btnmenu.Name = "btnmenu"
-        Me.btnmenu.Size = New System.Drawing.Size(41, 36)
-        Me.btnmenu.TabIndex = 2
-        Me.btnmenu.UseVisualStyleBackColor = False
-        '
-        'gnrap
-        '
-        Me.gnrap.BaseColor = System.Drawing.Color.White
-        Me.gnrap.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela.SetDecoration(Me.gnrap, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.gnrap, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.gnrap, AnimatorNS.DecorationType.None)
-        Me.gnrap.Image = Global.login.My.Resources.Resources.rapero
-        Me.gnrap.Location = New System.Drawing.Point(10, 290)
-        Me.gnrap.Name = "gnrap"
-        Me.gnrap.Size = New System.Drawing.Size(37, 37)
-        Me.gnrap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.gnrap.TabIndex = 5
-        Me.gnrap.TabStop = False
-        Me.gnrap.UseTransfarantBackground = False
-        Me.gnrap.Visible = False
-        '
         'gnhome
         '
         Me.gnhome.BaseColor = System.Drawing.Color.White
@@ -614,48 +566,96 @@ Partial Class mainmenu
         Me.gndepr.UseTransfarantBackground = False
         Me.gndepr.Visible = False
         '
-        'GunaCirclePictureBox1
+        'GunaDragControl1
         '
-        Me.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White
-        Me.panela.SetDecoration(Me.GunaCirclePictureBox1, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.GunaCirclePictureBox1, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.GunaCirclePictureBox1, AnimatorNS.DecorationType.None)
-        Me.GunaCirclePictureBox1.Image = Global.login.My.Resources.Resources.traje
-        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(478, 35)
-        Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
-        Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(70, 60)
-        Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaCirclePictureBox1.TabIndex = 9
-        Me.GunaCirclePictureBox1.TabStop = False
-        Me.GunaCirclePictureBox1.UseTransfarantBackground = False
+        Me.GunaDragControl1.TargetControl = Me
         '
-        'btnexit
+        'GunaDragControl2
         '
-        Me.btnexit.ActiveBorderThickness = 1
-        Me.btnexit.ActiveCornerRadius = 20
-        Me.btnexit.ActiveFillColor = System.Drawing.Color.Transparent
-        Me.btnexit.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnexit.ActiveLineColor = System.Drawing.Color.Transparent
-        Me.btnexit.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btnexit.BackgroundImage = CType(resources.GetObject("btnexit.BackgroundImage"), System.Drawing.Image)
-        Me.btnexit.ButtonText = "EXIT"
-        Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela.SetDecoration(Me.btnexit, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.btnexit, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.btnexit, AnimatorNS.DecorationType.None)
-        Me.btnexit.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnexit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnexit.IdleBorderThickness = 1
-        Me.btnexit.IdleCornerRadius = 20
-        Me.btnexit.IdleFillColor = System.Drawing.Color.Transparent
-        Me.btnexit.IdleForecolor = System.Drawing.Color.Gray
-        Me.btnexit.IdleLineColor = System.Drawing.Color.Transparent
-        Me.btnexit.Location = New System.Drawing.Point(908, -2)
-        Me.btnexit.Margin = New System.Windows.Forms.Padding(5)
-        Me.btnexit.Name = "btnexit"
-        Me.btnexit.Size = New System.Drawing.Size(90, 41)
-        Me.btnexit.TabIndex = 2
-        Me.btnexit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GunaDragControl2.TargetControl = Me.pnltt
+        '
+        'GunaDragControl3
+        '
+        Me.GunaDragControl3.TargetControl = Me.pnlopc
+        '
+        'GunaElipse1
+        '
+        Me.GunaElipse1.Radius = 15
+        Me.GunaElipse1.TargetControl = Me
+        '
+        'panela
+        '
+        Me.panela.AnimationType = AnimatorNS.AnimationType.HorizSlide
+        Me.panela.Cursor = Nothing
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New System.Windows.Forms.Padding(0)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 0!
+        Animation1.TransparencyCoeff = 0!
+        Me.panela.DefaultAnimation = Animation1
+        Me.panela.Interval = 20
+        '
+        'pnlcont
+        '
+        Me.panela.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
+        Me.pnlcont.Location = New System.Drawing.Point(186, 107)
+        Me.pnlcont.Name = "pnlcont"
+        Me.pnlcont.Size = New System.Drawing.Size(805, 394)
+        Me.pnlcont.TabIndex = 2
+        '
+        'logoaa
+        '
+        Me.logoaa.AnimationType = AnimatorNS.AnimationType.Leaf
+        Me.logoaa.Cursor = Nothing
+        Animation2.AnimateOnlyDifferences = True
+        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
+        Animation2.LeafCoeff = 1.0!
+        Animation2.MaxTime = 1.0!
+        Animation2.MinTime = 0!
+        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
+        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
+        Animation2.MosaicSize = 0
+        Animation2.Padding = New System.Windows.Forms.Padding(0)
+        Animation2.RotateCoeff = 0!
+        Animation2.RotateLimit = 0!
+        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
+        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
+        Animation2.TimeCoeff = 0!
+        Animation2.TransparencyCoeff = 0!
+        Me.logoaa.DefaultAnimation = Animation2
+        '
+        'panela2
+        '
+        Me.panela2.AnimationType = AnimatorNS.AnimationType.HorizSlide
+        Me.panela2.Cursor = Nothing
+        Animation3.AnimateOnlyDifferences = True
+        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), System.Drawing.PointF)
+        Animation3.LeafCoeff = 0!
+        Animation3.MaxTime = 1.0!
+        Animation3.MinTime = 0!
+        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), System.Drawing.PointF)
+        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), System.Drawing.PointF)
+        Animation3.MosaicSize = 0
+        Animation3.Padding = New System.Windows.Forms.Padding(0)
+        Animation3.RotateCoeff = 0!
+        Animation3.RotateLimit = 0!
+        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), System.Drawing.PointF)
+        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), System.Drawing.PointF)
+        Animation3.TimeCoeff = 0!
+        Animation3.TransparencyCoeff = 0!
+        Me.panela2.DefaultAnimation = Animation3
         '
         'mainmenu
         '
@@ -675,6 +675,7 @@ Partial Class mainmenu
         Me.Text = "mainmenu"
         Me.pnltt.ResumeLayout(False)
         Me.pnltt.PerformLayout()
+        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlopc.ResumeLayout(False)
         CType(Me.gnreq, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.logo, System.ComponentModel.ISupportInitialize).EndInit()
@@ -683,7 +684,6 @@ Partial Class mainmenu
         CType(Me.gnhome, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gnhoodie, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gndepr, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

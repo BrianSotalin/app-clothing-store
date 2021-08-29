@@ -295,5 +295,53 @@
   <ItemGroup>
     <None Include="Resources\wwsspp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cms.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cmsspll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jogg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bvbv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\licra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\style.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

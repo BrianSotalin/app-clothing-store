@@ -60,11 +60,11 @@ Partial Class formreqst
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Sitka Heading", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label2.Location = New System.Drawing.Point(303, 85)
+        Me.Label2.Font = New System.Drawing.Font("Sitka Heading", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label2.Location = New System.Drawing.Point(315, 87)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(169, 30)
+        Me.Label2.Size = New System.Drawing.Size(154, 28)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "¿Quienes somos?"
         '
@@ -81,22 +81,22 @@ Partial Class formreqst
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Sitka Heading", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.SeaGreen
+        Me.Label1.Font = New System.Drawing.Font("Sitka Heading", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DarkRed
         Me.Label1.Location = New System.Drawing.Point(331, 184)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(127, 30)
+        Me.Label1.Size = New System.Drawing.Size(115, 28)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Contactanos"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Sitka Heading", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
+        Me.Label3.Font = New System.Drawing.Font("Sitka Heading", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DarkRed
         Me.Label3.Location = New System.Drawing.Point(340, 298)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(96, 30)
+        Me.Label3.Size = New System.Drawing.Size(87, 28)
         Me.Label3.TabIndex = 18
         Me.Label3.Text = "Siguenos"
         '

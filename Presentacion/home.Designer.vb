@@ -46,7 +46,7 @@ Partial Class home
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Sitka Heading", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.SeaGreen
+        Me.Label2.ForeColor = System.Drawing.Color.DarkRed
         Me.Label2.Location = New System.Drawing.Point(46, 94)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(75, 30)
@@ -57,7 +57,7 @@ Partial Class home
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Sitka Heading", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
+        Me.Label3.ForeColor = System.Drawing.Color.DarkRed
         Me.Label3.Location = New System.Drawing.Point(46, 203)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(70, 30)

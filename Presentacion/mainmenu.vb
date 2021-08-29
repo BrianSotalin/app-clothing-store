@@ -22,9 +22,18 @@
         Me.Close()
         login.Close()
     End Sub
+    Private Sub exiit()
+        'procedimiento btn cerrar
+        Dim salir As String
+        salir = MsgBox("¿Estas seguro que desea salir del programa?", vbQuestion + vbYesNo, "@ TrendyClothes Inc. | 2021")
+        If salir = vbYes Then
+            Me.Close()
+            login.Close()
+        End If
+    End Sub
 
     Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
-        salir()
+        exiit()
     End Sub
 
     Private Sub btnmenu_Click(sender As Object, e As EventArgs) Handles btnmenu.Click
@@ -125,5 +134,9 @@
 
     Private Sub logo_Click(sender As Object, e As EventArgs) Handles logo.Click
         AbrirformEnPanel(Of fromslider)()
+    End Sub
+
+    Private Sub mainmenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
