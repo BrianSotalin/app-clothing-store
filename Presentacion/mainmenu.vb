@@ -1,4 +1,5 @@
 ﻿Public Class mainmenu
+    Dim acumulador As Integer = 51
     'Metodo para abrir formulario secundario
     Private Sub AbrirformEnPanel(Of miform As {Form, New})()
         Dim formulario As Form
@@ -16,6 +17,26 @@
             formulario.BringToFront()
         Else
             formulario.BringToFront()
+        End If
+    End Sub
+    Private Sub tiempo()
+        acumulador += 50
+        ac.Text = acumulador
+        If acumulador >= 50 Then
+            panel1.Visible = True
+            panel2.Visible = False
+            Panel4.Visible = False
+        End If
+        If acumulador >= 250 Then
+            panel1.Visible = False
+            panel2.Visible = True
+            Panel4.Visible = False
+        End If
+        If acumulador >= 350 Then
+            panel1.Visible = False
+            panel2.Visible = False
+            Panel4.Visible = True
+            acumulador = 100
         End If
     End Sub
     Private Sub salir()
@@ -85,7 +106,7 @@
     End Sub
 
     Private Sub bfhome_Click(sender As Object, e As EventArgs) Handles bfhome.Click
-        abrirformenpanel(Of home)()
+        AbrirformEnPanel(Of home)()
     End Sub
 
     Private Sub gnhome_Click(sender As Object, e As EventArgs) Handles gnhome.Click
@@ -137,6 +158,12 @@
     End Sub
 
     Private Sub mainmenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Enabled = True
+        Timer1.Interval = 1000
+        ac.Text = acumulador
+    End Sub
 
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        tiempo()
     End Sub
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class mainmenu
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,13 @@ Partial Class mainmenu
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation1 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation30 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation29 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation28 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainmenu))
-        Dim Animation2 As AnimatorNS.Animation = New AnimatorNS.Animation()
-        Dim Animation3 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Me.pnltt = New System.Windows.Forms.Panel()
         Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -55,8 +55,38 @@ Partial Class mainmenu
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.panela = New AnimatorNS.Animator(Me.components)
         Me.pnlcont = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.BunifuCustomLabel7 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuCustomLabel2 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel3 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.BunifuCustomLabel4 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuCustomLabel5 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel6 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.panel1 = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.BunifuCustomLabel10 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuCustomLabel12 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel13 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ac = New System.Windows.Forms.Label()
         Me.logoaa = New AnimatorNS.Animator(Me.components)
         Me.panela2 = New AnimatorNS.Animator(Me.components)
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.pnltt.SuspendLayout()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlopc.SuspendLayout()
@@ -67,6 +97,13 @@ Partial Class mainmenu
         CType(Me.gnhome, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gnhoodie, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gndepr, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlcont.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnltt
@@ -587,75 +624,542 @@ Partial Class mainmenu
         '
         Me.panela.AnimationType = AnimatorNS.AnimationType.HorizSlide
         Me.panela.Cursor = Nothing
-        Animation1.AnimateOnlyDifferences = True
-        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
-        Animation1.LeafCoeff = 0!
-        Animation1.MaxTime = 1.0!
-        Animation1.MinTime = 0!
-        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
-        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
-        Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0)
-        Animation1.RotateCoeff = 0!
-        Animation1.RotateLimit = 0!
-        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
-        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
-        Animation1.TimeCoeff = 0!
-        Animation1.TransparencyCoeff = 0!
-        Me.panela.DefaultAnimation = Animation1
+        Animation30.AnimateOnlyDifferences = True
+        Animation30.BlindCoeff = CType(resources.GetObject("Animation30.BlindCoeff"), System.Drawing.PointF)
+        Animation30.LeafCoeff = 0!
+        Animation30.MaxTime = 1.0!
+        Animation30.MinTime = 0!
+        Animation30.MosaicCoeff = CType(resources.GetObject("Animation30.MosaicCoeff"), System.Drawing.PointF)
+        Animation30.MosaicShift = CType(resources.GetObject("Animation30.MosaicShift"), System.Drawing.PointF)
+        Animation30.MosaicSize = 0
+        Animation30.Padding = New System.Windows.Forms.Padding(0)
+        Animation30.RotateCoeff = 0!
+        Animation30.RotateLimit = 0!
+        Animation30.ScaleCoeff = CType(resources.GetObject("Animation30.ScaleCoeff"), System.Drawing.PointF)
+        Animation30.SlideCoeff = CType(resources.GetObject("Animation30.SlideCoeff"), System.Drawing.PointF)
+        Animation30.TimeCoeff = 0!
+        Animation30.TransparencyCoeff = 0!
+        Me.panela.DefaultAnimation = Animation30
         Me.panela.Interval = 20
         '
         'pnlcont
         '
+        Me.pnlcont.Controls.Add(Me.Panel4)
+        Me.pnlcont.Controls.Add(Me.Panel2)
+        Me.pnlcont.Controls.Add(Me.panel1)
+        Me.pnlcont.Controls.Add(Me.ac)
         Me.panela.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
         Me.logoaa.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
         Me.panela2.SetDecoration(Me.pnlcont, AnimatorNS.DecorationType.None)
-        Me.pnlcont.Location = New System.Drawing.Point(186, 107)
+        Me.pnlcont.Location = New System.Drawing.Point(184, 103)
         Me.pnlcont.Name = "pnlcont"
-        Me.pnlcont.Size = New System.Drawing.Size(805, 394)
+        Me.pnlcont.Size = New System.Drawing.Size(804, 398)
         Me.pnlcont.TabIndex = 2
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Panel2.Controls.Add(Me.BunifuCustomLabel7)
+        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Controls.Add(Me.BunifuCustomLabel4)
+        Me.Panel2.Controls.Add(Me.BunifuThinButton23)
+        Me.Panel2.Controls.Add(Me.BunifuCustomLabel5)
+        Me.Panel2.Controls.Add(Me.BunifuCustomLabel6)
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.Label9)
+        Me.Panel2.Controls.Add(Me.PictureBox3)
+        Me.panela.SetDecoration(Me.Panel2, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Panel2, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.Panel2, AnimatorNS.DecorationType.None)
+        Me.Panel2.Location = New System.Drawing.Point(37, 24)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(751, 340)
+        Me.Panel2.TabIndex = 11
+        Me.Panel2.Visible = False
+        '
+        'BunifuCustomLabel7
+        '
+        Me.BunifuCustomLabel7.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel7, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel7, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel7, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel7.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel7.ForeColor = System.Drawing.Color.Black
+        Me.BunifuCustomLabel7.Location = New System.Drawing.Point(18, 224)
+        Me.BunifuCustomLabel7.Name = "BunifuCustomLabel7"
+        Me.BunifuCustomLabel7.Size = New System.Drawing.Size(190, 23)
+        Me.BunifuCustomLabel7.TabIndex = 13
+        Me.BunifuCustomLabel7.Text = "Por la compra de un jean:"
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Panel4.Controls.Add(Me.Label4)
+        Me.Panel4.Controls.Add(Me.BunifuCustomLabel1)
+        Me.Panel4.Controls.Add(Me.BunifuThinButton21)
+        Me.Panel4.Controls.Add(Me.BunifuCustomLabel2)
+        Me.Panel4.Controls.Add(Me.BunifuCustomLabel3)
+        Me.Panel4.Controls.Add(Me.Label5)
+        Me.Panel4.Controls.Add(Me.Label6)
+        Me.Panel4.Controls.Add(Me.PictureBox2)
+        Me.panela.SetDecoration(Me.Panel4, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Panel4, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.Panel4, AnimatorNS.DecorationType.None)
+        Me.Panel4.Location = New System.Drawing.Point(19, 24)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(751, 340)
+        Me.Panel4.TabIndex = 10
+        Me.Panel4.Visible = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label4, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label4, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label4, AnimatorNS.DecorationType.None)
+        Me.Label4.Font = New System.Drawing.Font("Sitka Heading", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Gray
+        Me.Label4.Location = New System.Drawing.Point(3, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(82, 16)
+        Me.Label4.TabIndex = 12
+        Me.Label4.Text = "PROMOCIONES"
+        '
+        'BunifuCustomLabel1
+        '
+        Me.BunifuCustomLabel1.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel1, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel1, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel1, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel1.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(30, 228)
+        Me.BunifuCustomLabel1.Name = "BunifuCustomLabel1"
+        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(137, 23)
+        Me.BunifuCustomLabel1.TabIndex = 11
+        Me.BunifuCustomLabel1.Text = "Gratis una cadena"
+        '
+        'BunifuThinButton21
+        '
+        Me.BunifuThinButton21.ActiveBorderThickness = 1
+        Me.BunifuThinButton21.ActiveCornerRadius = 20
+        Me.BunifuThinButton21.ActiveFillColor = System.Drawing.Color.Silver
+        Me.BunifuThinButton21.ActiveForecolor = System.Drawing.Color.Black
+        Me.BunifuThinButton21.ActiveLineColor = System.Drawing.Color.Silver
+        Me.BunifuThinButton21.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton21.ButtonText = "COMPRAR"
+        Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.BunifuThinButton21, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.BunifuThinButton21, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuThinButton21, AnimatorNS.DecorationType.None)
+        Me.BunifuThinButton21.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton21.ForeColor = System.Drawing.Color.Goldenrod
+        Me.BunifuThinButton21.IdleBorderThickness = 1
+        Me.BunifuThinButton21.IdleCornerRadius = 20
+        Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.Black
+        Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.Silver
+        Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.White
+        Me.BunifuThinButton21.Location = New System.Drawing.Point(7, 284)
+        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton21.Name = "BunifuThinButton21"
+        Me.BunifuThinButton21.Size = New System.Drawing.Size(249, 41)
+        Me.BunifuThinButton21.TabIndex = 9
+        Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuCustomLabel2
+        '
+        Me.BunifuCustomLabel2.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel2, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel2, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel2, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel2.Font = New System.Drawing.Font("Lucida Handwriting", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel2.Location = New System.Drawing.Point(19, 247)
+        Me.BunifuCustomLabel2.Name = "BunifuCustomLabel2"
+        Me.BunifuCustomLabel2.Size = New System.Drawing.Size(0, 17)
+        Me.BunifuCustomLabel2.TabIndex = 7
+        '
+        'BunifuCustomLabel3
+        '
+        Me.BunifuCustomLabel3.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel3, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel3, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel3, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel3.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel3.Location = New System.Drawing.Point(30, 176)
+        Me.BunifuCustomLabel3.Name = "BunifuCustomLabel3"
+        Me.BunifuCustomLabel3.Size = New System.Drawing.Size(150, 23)
+        Me.BunifuCustomLabel3.TabIndex = 6
+        Me.BunifuCustomLabel3.Text = "2 pares de buzos x 1"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label5, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label5, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label5, AnimatorNS.DecorationType.None)
+        Me.Label5.Font = New System.Drawing.Font("Sitka Heading", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label5.Location = New System.Drawing.Point(124, 105)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(128, 50)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "$45.99"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label6, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label6, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label6, AnimatorNS.DecorationType.None)
+        Me.Label6.Font = New System.Drawing.Font("Sitka Heading", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label6.Location = New System.Drawing.Point(25, 55)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(129, 50)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "Oferta "
+        '
+        'PictureBox2
+        '
+        Me.panela2.SetDecoration(Me.PictureBox2, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.PictureBox2, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.PictureBox2, AnimatorNS.DecorationType.None)
+        Me.PictureBox2.Image = Global.login.My.Resources.Resources.jj3
+        Me.PictureBox2.Location = New System.Drawing.Point(264, 31)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(465, 294)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label7, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label7, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label7, AnimatorNS.DecorationType.None)
+        Me.Label7.Font = New System.Drawing.Font("Sitka Heading", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Gray
+        Me.Label7.Location = New System.Drawing.Point(3, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(82, 16)
+        Me.Label7.TabIndex = 12
+        Me.Label7.Text = "PROMOCIONES"
+        '
+        'BunifuCustomLabel4
+        '
+        Me.BunifuCustomLabel4.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel4, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel4, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel4, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel4.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel4.Location = New System.Drawing.Point(17, 247)
+        Me.BunifuCustomLabel4.Name = "BunifuCustomLabel4"
+        Me.BunifuCustomLabel4.Size = New System.Drawing.Size(226, 23)
+        Me.BunifuCustomLabel4.TabIndex = 11
+        Me.BunifuCustomLabel4.Text = "50% de descuento por un reloj"
+        '
+        'BunifuThinButton23
+        '
+        Me.BunifuThinButton23.ActiveBorderThickness = 1
+        Me.BunifuThinButton23.ActiveCornerRadius = 20
+        Me.BunifuThinButton23.ActiveFillColor = System.Drawing.Color.Silver
+        Me.BunifuThinButton23.ActiveForecolor = System.Drawing.Color.Black
+        Me.BunifuThinButton23.ActiveLineColor = System.Drawing.Color.Silver
+        Me.BunifuThinButton23.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BunifuThinButton23.BackgroundImage = CType(resources.GetObject("BunifuThinButton23.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton23.ButtonText = "COMPRAR"
+        Me.BunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.BunifuThinButton23, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.BunifuThinButton23, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuThinButton23, AnimatorNS.DecorationType.None)
+        Me.BunifuThinButton23.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton23.ForeColor = System.Drawing.Color.Goldenrod
+        Me.BunifuThinButton23.IdleBorderThickness = 1
+        Me.BunifuThinButton23.IdleCornerRadius = 20
+        Me.BunifuThinButton23.IdleFillColor = System.Drawing.Color.Black
+        Me.BunifuThinButton23.IdleForecolor = System.Drawing.Color.Silver
+        Me.BunifuThinButton23.IdleLineColor = System.Drawing.Color.White
+        Me.BunifuThinButton23.Location = New System.Drawing.Point(7, 284)
+        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton23.Name = "BunifuThinButton23"
+        Me.BunifuThinButton23.Size = New System.Drawing.Size(249, 41)
+        Me.BunifuThinButton23.TabIndex = 9
+        Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuCustomLabel5
+        '
+        Me.BunifuCustomLabel5.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel5, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel5, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel5, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel5.Font = New System.Drawing.Font("Lucida Handwriting", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel5.Location = New System.Drawing.Point(19, 247)
+        Me.BunifuCustomLabel5.Name = "BunifuCustomLabel5"
+        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(0, 17)
+        Me.BunifuCustomLabel5.TabIndex = 7
+        '
+        'BunifuCustomLabel6
+        '
+        Me.BunifuCustomLabel6.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel6, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel6, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel6, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel6.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel6.Location = New System.Drawing.Point(18, 186)
+        Me.BunifuCustomLabel6.Name = "BunifuCustomLabel6"
+        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(188, 23)
+        Me.BunifuCustomLabel6.TabIndex = 6
+        Me.BunifuCustomLabel6.Text = "Jeans de ultima coleccion"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label8, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label8, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label8, AnimatorNS.DecorationType.None)
+        Me.Label8.Font = New System.Drawing.Font("Sitka Heading", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label8.Location = New System.Drawing.Point(124, 105)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(127, 50)
+        Me.Label8.TabIndex = 3
+        Me.Label8.Text = "$65.99"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label9, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label9, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label9, AnimatorNS.DecorationType.None)
+        Me.Label9.Font = New System.Drawing.Font("Sitka Heading", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label9.Location = New System.Drawing.Point(25, 55)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(129, 50)
+        Me.Label9.TabIndex = 2
+        Me.Label9.Text = "Oferta "
+        '
+        'PictureBox3
+        '
+        Me.panela2.SetDecoration(Me.PictureBox3, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.PictureBox3, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.PictureBox3, AnimatorNS.DecorationType.None)
+        Me.PictureBox3.Image = Global.login.My.Resources.Resources.jj
+        Me.PictureBox3.Location = New System.Drawing.Point(264, 27)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(465, 294)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'panel1
+        '
+        Me.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.panel1.Controls.Add(Me.Label10)
+        Me.panel1.Controls.Add(Me.BunifuCustomLabel10)
+        Me.panel1.Controls.Add(Me.BunifuThinButton22)
+        Me.panel1.Controls.Add(Me.BunifuCustomLabel12)
+        Me.panel1.Controls.Add(Me.BunifuCustomLabel13)
+        Me.panel1.Controls.Add(Me.Label11)
+        Me.panel1.Controls.Add(Me.Label12)
+        Me.panel1.Controls.Add(Me.PictureBox1)
+        Me.panela.SetDecoration(Me.panel1, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.panel1, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.panel1, AnimatorNS.DecorationType.None)
+        Me.panel1.Location = New System.Drawing.Point(12, 39)
+        Me.panel1.Name = "panel1"
+        Me.panel1.Size = New System.Drawing.Size(751, 340)
+        Me.panel1.TabIndex = 10
+        Me.panel1.Visible = False
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label10, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label10, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label10, AnimatorNS.DecorationType.None)
+        Me.Label10.Font = New System.Drawing.Font("Sitka Heading", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Gray
+        Me.Label10.Location = New System.Drawing.Point(3, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(82, 16)
+        Me.Label10.TabIndex = 12
+        Me.Label10.Text = "PROMOCIONES"
+        '
+        'BunifuCustomLabel10
+        '
+        Me.BunifuCustomLabel10.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel10, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel10, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel10, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel10.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(30, 228)
+        Me.BunifuCustomLabel10.Name = "BunifuCustomLabel10"
+        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(141, 23)
+        Me.BunifuCustomLabel10.TabIndex = 11
+        Me.BunifuCustomLabel10.Text = "Gratis una pulsera"
+        '
+        'BunifuThinButton22
+        '
+        Me.BunifuThinButton22.ActiveBorderThickness = 1
+        Me.BunifuThinButton22.ActiveCornerRadius = 20
+        Me.BunifuThinButton22.ActiveFillColor = System.Drawing.Color.Silver
+        Me.BunifuThinButton22.ActiveForecolor = System.Drawing.Color.Black
+        Me.BunifuThinButton22.ActiveLineColor = System.Drawing.Color.Silver
+        Me.BunifuThinButton22.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BunifuThinButton22.BackgroundImage = CType(resources.GetObject("BunifuThinButton22.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton22.ButtonText = "COMPRAR"
+        Me.BunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.BunifuThinButton22, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.BunifuThinButton22, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuThinButton22, AnimatorNS.DecorationType.None)
+        Me.BunifuThinButton22.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton22.ForeColor = System.Drawing.Color.Goldenrod
+        Me.BunifuThinButton22.IdleBorderThickness = 1
+        Me.BunifuThinButton22.IdleCornerRadius = 20
+        Me.BunifuThinButton22.IdleFillColor = System.Drawing.Color.Black
+        Me.BunifuThinButton22.IdleForecolor = System.Drawing.Color.Silver
+        Me.BunifuThinButton22.IdleLineColor = System.Drawing.Color.White
+        Me.BunifuThinButton22.Location = New System.Drawing.Point(7, 284)
+        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton22.Name = "BunifuThinButton22"
+        Me.BunifuThinButton22.Size = New System.Drawing.Size(249, 41)
+        Me.BunifuThinButton22.TabIndex = 9
+        Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuCustomLabel12
+        '
+        Me.BunifuCustomLabel12.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel12, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel12, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel12, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel12.Font = New System.Drawing.Font("Lucida Handwriting", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel12.Location = New System.Drawing.Point(19, 247)
+        Me.BunifuCustomLabel12.Name = "BunifuCustomLabel12"
+        Me.BunifuCustomLabel12.Size = New System.Drawing.Size(0, 17)
+        Me.BunifuCustomLabel12.TabIndex = 7
+        '
+        'BunifuCustomLabel13
+        '
+        Me.BunifuCustomLabel13.AutoSize = True
+        Me.panela2.SetDecoration(Me.BunifuCustomLabel13, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuCustomLabel13, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.BunifuCustomLabel13, AnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel13.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuCustomLabel13.Location = New System.Drawing.Point(30, 176)
+        Me.BunifuCustomLabel13.Name = "BunifuCustomLabel13"
+        Me.BunifuCustomLabel13.Size = New System.Drawing.Size(166, 23)
+        Me.BunifuCustomLabel13.TabIndex = 6
+        Me.BunifuCustomLabel13.Text = "2 pares de camisas x 1"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label11, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label11, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label11, AnimatorNS.DecorationType.None)
+        Me.Label11.Font = New System.Drawing.Font("Sitka Heading", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label11.Location = New System.Drawing.Point(124, 105)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(122, 50)
+        Me.Label11.TabIndex = 3
+        Me.Label11.Text = "$15.99"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.panela2.SetDecoration(Me.Label12, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Label12, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Label12, AnimatorNS.DecorationType.None)
+        Me.Label12.Font = New System.Drawing.Font("Sitka Heading", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label12.Location = New System.Drawing.Point(25, 55)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(129, 50)
+        Me.Label12.TabIndex = 2
+        Me.Label12.Text = "Oferta "
+        '
+        'PictureBox1
+        '
+        Me.panela2.SetDecoration(Me.PictureBox1, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.PictureBox1, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.PictureBox1, AnimatorNS.DecorationType.None)
+        Me.PictureBox1.Image = Global.login.My.Resources.Resources.jjj2
+        Me.PictureBox1.Location = New System.Drawing.Point(264, 31)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(465, 294)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'ac
+        '
+        Me.ac.AutoSize = True
+        Me.panela2.SetDecoration(Me.ac, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.ac, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.ac, AnimatorNS.DecorationType.None)
+        Me.ac.Location = New System.Drawing.Point(9, 3)
+        Me.ac.Name = "ac"
+        Me.ac.Size = New System.Drawing.Size(13, 13)
+        Me.ac.TabIndex = 0
+        Me.ac.Text = "0"
+        Me.ac.Visible = False
         '
         'logoaa
         '
         Me.logoaa.AnimationType = AnimatorNS.AnimationType.Leaf
         Me.logoaa.Cursor = Nothing
-        Animation2.AnimateOnlyDifferences = True
-        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
-        Animation2.LeafCoeff = 1.0!
-        Animation2.MaxTime = 1.0!
-        Animation2.MinTime = 0!
-        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
-        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
-        Animation2.MosaicSize = 0
-        Animation2.Padding = New System.Windows.Forms.Padding(0)
-        Animation2.RotateCoeff = 0!
-        Animation2.RotateLimit = 0!
-        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
-        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
-        Animation2.TimeCoeff = 0!
-        Animation2.TransparencyCoeff = 0!
-        Me.logoaa.DefaultAnimation = Animation2
+        Animation29.AnimateOnlyDifferences = True
+        Animation29.BlindCoeff = CType(resources.GetObject("Animation29.BlindCoeff"), System.Drawing.PointF)
+        Animation29.LeafCoeff = 1.0!
+        Animation29.MaxTime = 1.0!
+        Animation29.MinTime = 0!
+        Animation29.MosaicCoeff = CType(resources.GetObject("Animation29.MosaicCoeff"), System.Drawing.PointF)
+        Animation29.MosaicShift = CType(resources.GetObject("Animation29.MosaicShift"), System.Drawing.PointF)
+        Animation29.MosaicSize = 0
+        Animation29.Padding = New System.Windows.Forms.Padding(0)
+        Animation29.RotateCoeff = 0!
+        Animation29.RotateLimit = 0!
+        Animation29.ScaleCoeff = CType(resources.GetObject("Animation29.ScaleCoeff"), System.Drawing.PointF)
+        Animation29.SlideCoeff = CType(resources.GetObject("Animation29.SlideCoeff"), System.Drawing.PointF)
+        Animation29.TimeCoeff = 0!
+        Animation29.TransparencyCoeff = 0!
+        Me.logoaa.DefaultAnimation = Animation29
         '
         'panela2
         '
         Me.panela2.AnimationType = AnimatorNS.AnimationType.HorizSlide
         Me.panela2.Cursor = Nothing
-        Animation3.AnimateOnlyDifferences = True
-        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), System.Drawing.PointF)
-        Animation3.LeafCoeff = 0!
-        Animation3.MaxTime = 1.0!
-        Animation3.MinTime = 0!
-        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), System.Drawing.PointF)
-        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), System.Drawing.PointF)
-        Animation3.MosaicSize = 0
-        Animation3.Padding = New System.Windows.Forms.Padding(0)
-        Animation3.RotateCoeff = 0!
-        Animation3.RotateLimit = 0!
-        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), System.Drawing.PointF)
-        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), System.Drawing.PointF)
-        Animation3.TimeCoeff = 0!
-        Animation3.TransparencyCoeff = 0!
-        Me.panela2.DefaultAnimation = Animation3
+        Animation28.AnimateOnlyDifferences = True
+        Animation28.BlindCoeff = CType(resources.GetObject("Animation28.BlindCoeff"), System.Drawing.PointF)
+        Animation28.LeafCoeff = 0!
+        Animation28.MaxTime = 1.0!
+        Animation28.MinTime = 0!
+        Animation28.MosaicCoeff = CType(resources.GetObject("Animation28.MosaicCoeff"), System.Drawing.PointF)
+        Animation28.MosaicShift = CType(resources.GetObject("Animation28.MosaicShift"), System.Drawing.PointF)
+        Animation28.MosaicSize = 0
+        Animation28.Padding = New System.Windows.Forms.Padding(0)
+        Animation28.RotateCoeff = 0!
+        Animation28.RotateLimit = 0!
+        Animation28.ScaleCoeff = CType(resources.GetObject("Animation28.ScaleCoeff"), System.Drawing.PointF)
+        Animation28.SlideCoeff = CType(resources.GetObject("Animation28.SlideCoeff"), System.Drawing.PointF)
+        Animation28.TimeCoeff = 0!
+        Animation28.TransparencyCoeff = 0!
+        Me.panela2.DefaultAnimation = Animation28
+        '
+        'Timer1
+        '
         '
         'mainmenu
         '
@@ -684,6 +1188,17 @@ Partial Class mainmenu
         CType(Me.gnhome, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gnhoodie, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gndepr, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlcont.ResumeLayout(False)
+        Me.pnlcont.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.panel1.ResumeLayout(False)
+        Me.panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -718,4 +1233,34 @@ Partial Class mainmenu
     Friend WithEvents gndepr As Guna.UI.WinForms.GunaCirclePictureBox
     Friend WithEvents gnhome As Guna.UI.WinForms.GunaCirclePictureBox
     Friend WithEvents pnlcont As Panel
+    Friend WithEvents ac As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents BunifuCustomLabel7 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuThinButton21 As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents BunifuCustomLabel2 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel3 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents BunifuCustomLabel4 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuThinButton23 As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents BunifuCustomLabel5 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel6 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents panel1 As Panel
+    Friend WithEvents Label10 As Label
+    Friend WithEvents BunifuCustomLabel10 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuThinButton22 As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents BunifuCustomLabel12 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel13 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Timer1 As Timer
 End Class
