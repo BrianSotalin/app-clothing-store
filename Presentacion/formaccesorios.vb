@@ -161,31 +161,27 @@
         lbltt.Text = total.ToString("C")
     End Sub
 
-    Private Sub btncobrar_Click(sender As Object, e As EventArgs)
+    Private Sub btncobrar_Click(sender As Object, e As EventArgs) Handles btncobrar.Click
         fincompra()
     End Sub
 
-    Private Sub btnew_Click(sender As Object, e As EventArgs)
+    Private Sub btnew_Click(sender As Object, e As EventArgs) Handles btnew.Click
         neworden()
     End Sub
 
-    Private Sub Producto1_Click(sender As Object, e As EventArgs)
+    Private Sub Producto1_Click(sender As Object, e As EventArgs) Handles Producto1.Click
         prenda1()
     End Sub
 
-    Private Sub Producto2_Click(sender As Object, e As EventArgs)
+    Private Sub Producto2_Click(sender As Object, e As EventArgs) Handles Producto2.Click
         prenda2()
     End Sub
 
-    Private Sub Producto3_Click(sender As Object, e As EventArgs)
+    Private Sub Producto3_Click(sender As Object, e As EventArgs) Handles Producto3.Click
         prenda3()
     End Sub
 
-    Private Sub Producto4_Click(sender As Object, e As EventArgs)
+    Private Sub Producto4_Click(sender As Object, e As EventArgs) Handles Producto4.Click
         prenda4()
-    End Sub
-
-    Private Sub btncobrar_Click_1(sender As Object, e As EventArgs) Handles btncobrar.Click
-
     End Sub
 End Class
