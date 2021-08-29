@@ -122,4 +122,8 @@
     Private Sub gnreq_Click(sender As Object, e As EventArgs) Handles gnreq.Click
         AbrirformEnPanel(Of formreqst)()
     End Sub
+
+    Private Sub logo_Click(sender As Object, e As EventArgs) Handles logo.Click
+        AbrirformEnPanel(Of fromslider)()
+    End Sub
 End Class

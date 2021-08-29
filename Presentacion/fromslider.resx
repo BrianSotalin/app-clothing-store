@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TextBox1.Text" xml:space="preserve">
-    <value>Ofrecer a los hombres que gustan del buen vestir, ropa de la más alta calidad al mejor precio del mercado, siempre tratando de tener productos  al corriente con lo último de la moda, y resaltar  eleganciay masculinidad en su vida diaria</value>
-  </data>
-  <data name="TextBox3.Text" xml:space="preserve">
-    <value>Posicionarnos en el mercado como una empresa exitosa y socialmente responsable con gran reconocimiento a nivel nacional gracias a nuestros productos, calidad, precios y servicio, siempre respetando los derechos y el trabajo tanto de nuestros colaboradores como de nuestros clientes, para asi seguir creciendo y poder ofrecer nuestros productos en todo el interior del país.</value>
-  </data>
 </root>

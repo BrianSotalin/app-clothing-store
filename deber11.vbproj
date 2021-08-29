@@ -114,6 +114,12 @@
     <Compile Include="Presentacion\formurbano.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Presentacion\fromslider.Designer.vb">
+      <DependentUpon>fromslider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\fromslider.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\home.Designer.vb">
       <DependentUpon>home.vb</DependentUpon>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\formurbano.resx">
       <DependentUpon>formurbano.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\fromslider.resx">
+      <DependentUpon>fromslider.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\home.resx">
       <DependentUpon>home.vb</DependentUpon>
@@ -264,6 +273,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\traje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\em.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ytb_i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fb_i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whats1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wwsspp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
