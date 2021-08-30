@@ -148,8 +148,8 @@ Partial Class login
         '
         'PictureBox3
         '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.userlogin
+        Me.PictureBox3.BackColor = System.Drawing.Color.Silver
+        Me.PictureBox3.Image = Global.login.My.Resources.Resources.usss
         Me.PictureBox3.Location = New System.Drawing.Point(419, 168)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(28, 30)
@@ -207,7 +207,7 @@ Partial Class login
         Me.btnexit.ActiveFillColor = System.Drawing.Color.Transparent
         Me.btnexit.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnexit.ActiveLineColor = System.Drawing.Color.Transparent
-        Me.btnexit.BackColor = System.Drawing.Color.Transparent
+        Me.btnexit.BackColor = System.Drawing.Color.Black
         Me.btnexit.BackgroundImage = CType(resources.GetObject("btnexit.BackgroundImage"), System.Drawing.Image)
         Me.btnexit.ButtonText = "EXIT"
         Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
@@ -228,7 +228,7 @@ Partial Class login
         '
         'GunaCirclePictureBox2
         '
-        Me.GunaCirclePictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GunaCirclePictureBox2.BackColor = System.Drawing.Color.Silver
         Me.GunaCirclePictureBox2.BaseColor = System.Drawing.Color.White
         Me.GunaCirclePictureBox2.Image = Global.login.My.Resources.Resources.key
         Me.GunaCirclePictureBox2.Location = New System.Drawing.Point(419, 206)
