@@ -84,6 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\conectarBDD.vb" />
+    <Compile Include="Presentacion\acercade.Designer.vb">
+      <DependentUpon>acercade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\acercade.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\formaccesorios.Designer.vb">
       <DependentUpon>formaccesorios.vb</DependentUpon>
     </Compile>
@@ -148,6 +154,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Presentacion\login2.Designer.vb">
+      <DependentUpon>login2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\login2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\mainmenu.Designer.vb">
       <DependentUpon>mainmenu.vb</DependentUpon>
     </Compile>
@@ -156,6 +168,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Presentacion\acercade.resx">
+      <DependentUpon>acercade.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\formaccesorios.resx">
       <DependentUpon>formaccesorios.vb</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +200,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\login2.resx">
+      <DependentUpon>login2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\mainmenu.resx">
       <DependentUpon>mainmenu.vb</DependentUpon>
@@ -351,6 +369,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\jj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traje1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wllpp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nñ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mn.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -49,4 +49,12 @@ Public Class login
             End Try
         End If
     End Sub
+
+    Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub GunaCircleButton1_Click_1(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
+        acercade.Show()
+    End Sub
 End Class

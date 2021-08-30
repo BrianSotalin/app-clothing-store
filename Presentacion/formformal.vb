@@ -162,7 +162,7 @@
     End Sub
 
     Private Sub btncobrar_Click(sender As Object, e As EventArgs) Handles btncobrar.Click
-        fincompra()
+        Call fincompra()
     End Sub
 
     Private Sub btnew_Click(sender As Object, e As EventArgs) Handles btnew.Click

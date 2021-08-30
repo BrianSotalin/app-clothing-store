@@ -166,4 +166,8 @@
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         tiempo()
     End Sub
+
+    Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
+        AbrirformEnPanel(Of acercade)()
+    End Sub
 End Class

@@ -117,24 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="BunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="GunaElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnexit.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAFkAAAAiCAYAAAA07nWtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAiSURBVGhD7cExAQAAAMKg9U/tZwogAAAAAAAAAAAAAADg
-        ai9qAAGzislcAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAApCAYAAAC1Hj5tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABuSURBVGhD7dAhAQAgAAQx+vd9DSk4NbECO9su/4mOiI6I
+        joiOiI6IjoiOiI6IjoiOiI6IjoiOiI6IjoiOiI6IjoiOiI6IjoiOiI6IjoiOiI6IjoiOiI6IjoiOiI6I
+        joiOiI6IjoiOiI6IjohO7D6e3sEmzjd0PAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="GunaElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>141, 17</value>
-  </metadata>
-  <metadata name="GunaDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>259, 17</value>
-  </metadata>
   <metadata name="GunaElipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>411, 13</value>
+    <value>135, 17</value>
+  </metadata>
+  <metadata name="GunaElipse3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>253, 17</value>
   </metadata>
 </root>
