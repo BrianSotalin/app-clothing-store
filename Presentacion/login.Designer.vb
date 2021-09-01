@@ -38,6 +38,7 @@ Partial Class login
         Me.GunaCircleButton1 = New Guna.UI.WinForms.GunaCircleButton()
         Me.btnexit = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.GunaCirclePictureBox2 = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -239,6 +240,31 @@ Partial Class login
         Me.GunaCirclePictureBox2.TabStop = False
         Me.GunaCirclePictureBox2.UseTransfarantBackground = False
         '
+        'BunifuThinButton24
+        '
+        Me.BunifuThinButton24.ActiveBorderThickness = 1
+        Me.BunifuThinButton24.ActiveCornerRadius = 20
+        Me.BunifuThinButton24.ActiveFillColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuThinButton24.ActiveLineColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.BackColor = System.Drawing.Color.Black
+        Me.BunifuThinButton24.BackgroundImage = CType(resources.GetObject("BunifuThinButton24.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton24.ButtonText = "Ingresar de nuevo"
+        Me.BunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton24.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuThinButton24.IdleBorderThickness = 1
+        Me.BunifuThinButton24.IdleCornerRadius = 20
+        Me.BunifuThinButton24.IdleFillColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.IdleForecolor = System.Drawing.Color.Gray
+        Me.BunifuThinButton24.IdleLineColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.Location = New System.Drawing.Point(47, 332)
+        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BunifuThinButton24.Name = "BunifuThinButton24"
+        Me.BunifuThinButton24.Size = New System.Drawing.Size(139, 15)
+        Me.BunifuThinButton24.TabIndex = 19
+        Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -246,6 +272,7 @@ Partial Class login
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = Global.login.My.Resources.Resources.mn
         Me.ClientSize = New System.Drawing.Size(650, 350)
+        Me.Controls.Add(Me.BunifuThinButton24)
         Me.Controls.Add(Me.GunaCirclePictureBox2)
         Me.Controls.Add(Me.GunaCircleButton1)
         Me.Controls.Add(Me.btnexit)
@@ -282,4 +309,5 @@ Partial Class login
     Friend WithEvents GunaCirclePictureBox2 As Guna.UI.WinForms.GunaCirclePictureBox
     Friend WithEvents GunaCircleButton1 As Guna.UI.WinForms.GunaCircleButton
     Friend WithEvents btnexit As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents BunifuThinButton24 As Bunifu.Framework.UI.BunifuThinButton2
 End Class

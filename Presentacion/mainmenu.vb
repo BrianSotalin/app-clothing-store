@@ -158,6 +158,7 @@
     End Sub
 
     Private Sub mainmenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lbluser.Text = user
         Timer1.Enabled = True
         Timer1.Interval = 1000
         ac.Text = acumulador
@@ -169,5 +170,11 @@
 
     Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
         AbrirformEnPanel(Of acercade)()
+    End Sub
+
+    Private Sub BunifuThinButton24_Click(sender As Object, e As EventArgs) Handles BunifuThinButton24.Click
+
+        Me.Close()
+        login.Show()
     End Sub
 End Class

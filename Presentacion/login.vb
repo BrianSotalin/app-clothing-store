@@ -31,11 +31,11 @@ Public Class login
                 If tabla.Rows.Count = 1 Then
                     Dim fila As DataRow = tabla.Rows(0)
                     Name = Trim(fila("Nombre").ToString)
-                    surname = Trim(fila("Apellido").ToString)
+                    user = Trim(fila("Usuario").ToString)
                     Tuser = Trim(fila("tipoUsuario").ToString)
                     txtuser.Text = ""
                     txtpsswrd.Text = ""
-                    MsgBox("Bienvenido: " & Name & surname & "   Tipo: " & Tuser, vbInformation, " @Trendy Clothes Inc. | 1999-2021")
+                    MsgBox("Bienvenido: " & user & "   Tipo: " & Tuser, vbInformation, " @Trendy Clothes Inc. | 1999-2021")
                     Me.Hide()
                     mainmenu.Show()
                 Else
@@ -61,5 +61,16 @@ Public Class login
         acercade.Show()
     End Sub
 
+    Private Sub BunifuThinButton24_Click(sender As Object, e As EventArgs) Handles BunifuThinButton24.Click
 
+        conexion.Close()
+        pbcircle.Visible = False
+        btni.Visible = True
+
+    End Sub
+
+    Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        pbcircle.Visible = False
+        btni.Visible = True
+    End Sub
 End Class
