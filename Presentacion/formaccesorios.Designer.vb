@@ -63,6 +63,7 @@ Partial Class formaccesorios
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnexit = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -74,6 +75,7 @@ Partial Class formaccesorios
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Panel2.Controls.Add(Me.btnexit)
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.Label9)
         Me.Panel2.Controls.Add(Me.btnew)
@@ -134,7 +136,7 @@ Partial Class formaccesorios
         Me.btnew.IdleFillColor = System.Drawing.Color.White
         Me.btnew.IdleForecolor = System.Drawing.Color.DarkRed
         Me.btnew.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.btnew.Location = New System.Drawing.Point(0, 306)
+        Me.btnew.Location = New System.Drawing.Point(0, 292)
         Me.btnew.Margin = New System.Windows.Forms.Padding(5)
         Me.btnew.Name = "btnew"
         Me.btnew.Size = New System.Drawing.Size(154, 40)
@@ -159,7 +161,7 @@ Partial Class formaccesorios
         Me.btncobrar.IdleFillColor = System.Drawing.Color.White
         Me.btncobrar.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btncobrar.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btncobrar.Location = New System.Drawing.Point(0, 267)
+        Me.btncobrar.Location = New System.Drawing.Point(0, 253)
         Me.btncobrar.Margin = New System.Windows.Forms.Padding(5)
         Me.btncobrar.Name = "btncobrar"
         Me.btncobrar.Size = New System.Drawing.Size(152, 40)
@@ -323,7 +325,7 @@ Partial Class formaccesorios
         Me.Producto4.ActiveLineColor = System.Drawing.Color.Silver
         Me.Producto4.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Producto4.BackgroundImage = CType(resources.GetObject("Producto4.BackgroundImage"), System.Drawing.Image)
-        Me.Producto4.ButtonText = "Ordenar"
+        Me.Producto4.ButtonText = "Comprar"
         Me.Producto4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Producto4.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Producto4.ForeColor = System.Drawing.Color.Red
@@ -373,7 +375,7 @@ Partial Class formaccesorios
         Me.Producto3.ActiveLineColor = System.Drawing.Color.Silver
         Me.Producto3.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Producto3.BackgroundImage = CType(resources.GetObject("Producto3.BackgroundImage"), System.Drawing.Image)
-        Me.Producto3.ButtonText = "Ordenar"
+        Me.Producto3.ButtonText = "Comprar"
         Me.Producto3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Producto3.Font = New System.Drawing.Font("Sitka Heading", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Producto3.ForeColor = System.Drawing.Color.Red
@@ -647,6 +649,31 @@ Partial Class formaccesorios
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'btnexit
+        '
+        Me.btnexit.ActiveBorderThickness = 1
+        Me.btnexit.ActiveCornerRadius = 20
+        Me.btnexit.ActiveFillColor = System.Drawing.Color.Transparent
+        Me.btnexit.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnexit.ActiveLineColor = System.Drawing.Color.Transparent
+        Me.btnexit.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnexit.BackgroundImage = CType(resources.GetObject("btnexit.BackgroundImage"), System.Drawing.Image)
+        Me.btnexit.ButtonText = "CERRAR CAJA"
+        Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnexit.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnexit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnexit.IdleBorderThickness = 1
+        Me.btnexit.IdleCornerRadius = 20
+        Me.btnexit.IdleFillColor = System.Drawing.Color.Transparent
+        Me.btnexit.IdleForecolor = System.Drawing.Color.Gray
+        Me.btnexit.IdleLineColor = System.Drawing.Color.Transparent
+        Me.btnexit.Location = New System.Drawing.Point(72, 328)
+        Me.btnexit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.btnexit.Name = "btnexit"
+        Me.btnexit.Size = New System.Drawing.Size(85, 22)
+        Me.btnexit.TabIndex = 42
+        Me.btnexit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'formaccesorios
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -709,4 +736,5 @@ Partial Class formaccesorios
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnexit As Bunifu.Framework.UI.BunifuThinButton2
 End Class

@@ -31,8 +31,11 @@ Public Class login
                 If tabla.Rows.Count = 1 Then
                     Dim fila As DataRow = tabla.Rows(0)
                     Name = Trim(fila("Nombre").ToString)
+                    surname = Trim(fila("Apellido").ToString)
+                    Tuser = Trim(fila("tipoUsuario").ToString)
                     txtuser.Text = ""
                     txtpsswrd.Text = ""
+                    MsgBox("Bienvenido: " & Name & surname & "   Tipo: " & Tuser, vbInformation, " @Trendy Clothes Inc. | 1999-2021")
                     Me.Hide()
                     mainmenu.Show()
                 Else
@@ -57,4 +60,6 @@ Public Class login
     Private Sub GunaCircleButton1_Click_1(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
         acercade.Show()
     End Sub
+
+
 End Class

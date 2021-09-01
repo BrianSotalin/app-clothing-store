@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("login")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("login")>
-<Assembly: AssemblyCopyright("Copyright ©  2021")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTitle("Trendy Clothes APP")>
+<Assembly: AssemblyDescription("Aplicacion de escritorio desarrollado en .NET y SQL Server")>
+<Assembly: AssemblyCompany("Trendy Clothes Inc.")>
+<Assembly: AssemblyProduct("Trendy Clothes")>
+<Assembly: AssemblyCopyright("@Trendy Clothes | 2021")>
+<Assembly: AssemblyTrademark("Trendy Clothes Inc.")>
 
 <Assembly: ComVisible(False)>
 

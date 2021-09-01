@@ -13,7 +13,7 @@
     Dim stock4 As Double = 12
 
 
-    Dim caja As Double = 0
+    Dim caja As Double = 700
     Dim iva As Double = 0
     Dim subtotal As Double = 0
     Dim total As Double = 0
@@ -34,8 +34,8 @@
     End Sub
     Private Sub cargarstock()
         stck1.Text = stock1
-        stck3.Text = stock2
-        stck2.Text = stock3
+        stck2.Text = stock2
+        stck3.Text = stock3
         stck4.Text = stock4
 
     End Sub
@@ -183,5 +183,19 @@
 
     Private Sub Producto4_Click(sender As Object, e As EventArgs) Handles Producto4.Click
         prenda4()
+    End Sub
+
+    Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
+        'procedimiento btn cerrar caja y formulario
+
+        MsgBox("*****CERRANDO CAJA*****" & vbNewLine & vbNewLine & "Recaudado: " & caja & "$", vbInformation, "@ TrendyClothes Inc. | 2021")
+
+        Dim salir As String
+
+        salir = MsgBox("¿Estas seguro que desea salir del programa?", vbQuestion + vbYesNo, "@ TrendyClothes Inc. | 2021")
+        If salir = vbYes Then
+            Me.Close()
+            login.Close()
+        End If
     End Sub
 End Class

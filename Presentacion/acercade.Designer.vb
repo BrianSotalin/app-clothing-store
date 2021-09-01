@@ -32,15 +32,14 @@ Partial Class acercade
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(acercade))
         Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         Me.LabelProductName = New System.Windows.Forms.Label()
         Me.LabelVersion = New System.Windows.Forms.Label()
         Me.LabelCopyright = New System.Windows.Forms.Label()
         Me.LabelCompanyName = New System.Windows.Forms.Label()
         Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.OKButton = New System.Windows.Forms.Button()
-        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         Me.GunaDragControl1 = New Guna.UI.WinForms.GunaDragControl(Me.components)
         Me.GunaDragControl2 = New Guna.UI.WinForms.GunaDragControl(Me.components)
         Me.TableLayoutPanel.SuspendLayout()
@@ -73,6 +72,20 @@ Partial Class acercade
         Me.TableLayoutPanel.Size = New System.Drawing.Size(463, 376)
         Me.TableLayoutPanel.TabIndex = 0
         '
+        'LogoPictureBox
+        '
+        Me.LogoPictureBox.BackColor = System.Drawing.Color.DarkRed
+        Me.LogoPictureBox.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LogoPictureBox.Image = Global.login.My.Resources.Resources.traje1
+        Me.LogoPictureBox.Location = New System.Drawing.Point(4, 5)
+        Me.LogoPictureBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.LogoPictureBox.Name = "LogoPictureBox"
+        Me.TableLayoutPanel.SetRowSpan(Me.LogoPictureBox, 6)
+        Me.LogoPictureBox.Size = New System.Drawing.Size(144, 366)
+        Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.LogoPictureBox.TabIndex = 0
+        Me.LogoPictureBox.TabStop = False
+        '
         'LabelProductName
         '
         Me.LabelProductName.Dock = System.Windows.Forms.DockStyle.Fill
@@ -82,7 +95,7 @@ Partial Class acercade
         Me.LabelProductName.Name = "LabelProductName"
         Me.LabelProductName.Size = New System.Drawing.Size(300, 24)
         Me.LabelProductName.TabIndex = 0
-        Me.LabelProductName.Text = "Nombre de producto"
+        Me.LabelProductName.Text = "Trendy Clothes APP"
         Me.LabelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelVersion
@@ -94,7 +107,7 @@ Partial Class acercade
         Me.LabelVersion.Name = "LabelVersion"
         Me.LabelVersion.Size = New System.Drawing.Size(300, 24)
         Me.LabelVersion.TabIndex = 0
-        Me.LabelVersion.Text = "Versión"
+        Me.LabelVersion.Text = "Version 1.0.1.0"
         Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelCopyright
@@ -106,7 +119,7 @@ Partial Class acercade
         Me.LabelCopyright.Name = "LabelCopyright"
         Me.LabelCopyright.Size = New System.Drawing.Size(300, 24)
         Me.LabelCopyright.TabIndex = 0
-        Me.LabelCopyright.Text = "Copyright"
+        Me.LabelCopyright.Text = "@TrendyClothes  |  2021"
         Me.LabelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelCompanyName
@@ -118,7 +131,7 @@ Partial Class acercade
         Me.LabelCompanyName.Name = "LabelCompanyName"
         Me.LabelCompanyName.Size = New System.Drawing.Size(300, 24)
         Me.LabelCompanyName.TabIndex = 0
-        Me.LabelCompanyName.Text = "Nombre de la compañía"
+        Me.LabelCompanyName.Text = "Trendy Clothes Inc."
         Me.LabelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'TextBoxDescription
@@ -137,7 +150,9 @@ Partial Class acercade
         Me.TextBoxDescription.Size = New System.Drawing.Size(300, 178)
         Me.TextBoxDescription.TabIndex = 0
         Me.TextBoxDescription.TabStop = False
-        Me.TextBoxDescription.Text = resources.GetString("TextBoxDescription.Text")
+        Me.TextBoxDescription.Text = "Descripción:  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aplicacion de escritorio desarrollada bajo la tecnologia de los l" &
+    "enguajes de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "programacion de visual .NET y la base de datos relacionales de SQL" &
+    " SERVER." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'OKButton
         '
@@ -151,20 +166,6 @@ Partial Class acercade
         Me.OKButton.Size = New System.Drawing.Size(88, 30)
         Me.OKButton.TabIndex = 0
         Me.OKButton.Text = "&Aceptar"
-        '
-        'LogoPictureBox
-        '
-        Me.LogoPictureBox.BackColor = System.Drawing.Color.DarkRed
-        Me.LogoPictureBox.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LogoPictureBox.Image = Global.login.My.Resources.Resources.traje1
-        Me.LogoPictureBox.Location = New System.Drawing.Point(4, 5)
-        Me.LogoPictureBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.LogoPictureBox.Name = "LogoPictureBox"
-        Me.TableLayoutPanel.SetRowSpan(Me.LogoPictureBox, 6)
-        Me.LogoPictureBox.Size = New System.Drawing.Size(144, 366)
-        Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.LogoPictureBox.TabIndex = 0
-        Me.LogoPictureBox.TabStop = False
         '
         'GunaDragControl1
         '
