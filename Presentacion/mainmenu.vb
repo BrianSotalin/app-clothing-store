@@ -50,6 +50,7 @@
         If salir = vbYes Then
             Me.Close()
             login.Close()
+            login2.Close()
         End If
     End Sub
 

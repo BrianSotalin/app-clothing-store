@@ -39,6 +39,7 @@ Partial Class login
         Me.btnexit = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.GunaCirclePictureBox2 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -310,4 +311,5 @@ Partial Class login
     Friend WithEvents GunaCircleButton1 As Guna.UI.WinForms.GunaCircleButton
     Friend WithEvents btnexit As Bunifu.Framework.UI.BunifuThinButton2
     Friend WithEvents BunifuThinButton24 As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents Timer1 As Timer
 End Class

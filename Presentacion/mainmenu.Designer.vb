@@ -23,11 +23,12 @@ Partial Class mainmenu
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainmenu))
         Dim Animation1 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Dim Animation3 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Dim Animation2 As AnimatorNS.Animation = New AnimatorNS.Animation()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainmenu))
         Me.pnltt = New System.Windows.Forms.Panel()
+        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.lbluser = New System.Windows.Forms.Label()
         Me.GunaCircleButton1 = New Guna.UI.WinForms.GunaCircleButton()
         Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
@@ -94,7 +95,6 @@ Partial Class mainmenu
         Me.logoaa = New AnimatorNS.Animator(Me.components)
         Me.panela2 = New AnimatorNS.Animator(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.pnltt.SuspendLayout()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlopc.SuspendLayout()
@@ -134,6 +134,35 @@ Partial Class mainmenu
         Me.pnltt.Size = New System.Drawing.Size(1000, 100)
         Me.pnltt.TabIndex = 0
         '
+        'BunifuThinButton24
+        '
+        Me.BunifuThinButton24.ActiveBorderThickness = 1
+        Me.BunifuThinButton24.ActiveCornerRadius = 20
+        Me.BunifuThinButton24.ActiveFillColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuThinButton24.ActiveLineColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.BunifuThinButton24.BackgroundImage = CType(resources.GetObject("BunifuThinButton24.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton24.ButtonText = "Cerrar Sesion"
+        Me.BunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.BunifuThinButton24, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.BunifuThinButton24, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.BunifuThinButton24, AnimatorNS.DecorationType.None)
+        Me.BunifuThinButton24.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BunifuThinButton24.IdleBorderThickness = 1
+        Me.BunifuThinButton24.IdleCornerRadius = 20
+        Me.BunifuThinButton24.IdleFillColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.IdleForecolor = System.Drawing.Color.Gray
+        Me.BunifuThinButton24.IdleLineColor = System.Drawing.Color.Transparent
+        Me.BunifuThinButton24.Location = New System.Drawing.Point(68, 11)
+        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BunifuThinButton24.Name = "BunifuThinButton24"
+        Me.BunifuThinButton24.Size = New System.Drawing.Size(110, 15)
+        Me.BunifuThinButton24.TabIndex = 14
+        Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuThinButton24.Visible = False
+        '
         'lbluser
         '
         Me.lbluser.AutoSize = True
@@ -147,6 +176,7 @@ Partial Class mainmenu
         Me.lbluser.Size = New System.Drawing.Size(55, 19)
         Me.lbluser.TabIndex = 13
         Me.lbluser.Text = "Usuario"
+        Me.lbluser.Visible = False
         '
         'GunaCircleButton1
         '
@@ -1288,34 +1318,6 @@ Partial Class mainmenu
         '
         'Timer1
         '
-        '
-        'BunifuThinButton24
-        '
-        Me.BunifuThinButton24.ActiveBorderThickness = 1
-        Me.BunifuThinButton24.ActiveCornerRadius = 20
-        Me.BunifuThinButton24.ActiveFillColor = System.Drawing.Color.Transparent
-        Me.BunifuThinButton24.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuThinButton24.ActiveLineColor = System.Drawing.Color.Transparent
-        Me.BunifuThinButton24.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.BunifuThinButton24.BackgroundImage = CType(resources.GetObject("BunifuThinButton24.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton24.ButtonText = "Cerrar Sesion"
-        Me.BunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela.SetDecoration(Me.BunifuThinButton24, AnimatorNS.DecorationType.None)
-        Me.panela2.SetDecoration(Me.BunifuThinButton24, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.BunifuThinButton24, AnimatorNS.DecorationType.None)
-        Me.BunifuThinButton24.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuThinButton24.IdleBorderThickness = 1
-        Me.BunifuThinButton24.IdleCornerRadius = 20
-        Me.BunifuThinButton24.IdleFillColor = System.Drawing.Color.Transparent
-        Me.BunifuThinButton24.IdleForecolor = System.Drawing.Color.Gray
-        Me.BunifuThinButton24.IdleLineColor = System.Drawing.Color.Transparent
-        Me.BunifuThinButton24.Location = New System.Drawing.Point(68, 11)
-        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BunifuThinButton24.Name = "BunifuThinButton24"
-        Me.BunifuThinButton24.Size = New System.Drawing.Size(110, 15)
-        Me.BunifuThinButton24.TabIndex = 14
-        Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'mainmenu
         '
