@@ -161,7 +161,6 @@ Partial Class mainmenu
         Me.BunifuThinButton24.Size = New System.Drawing.Size(110, 15)
         Me.BunifuThinButton24.TabIndex = 14
         Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuThinButton24.Visible = False
         '
         'lbluser
         '
@@ -176,7 +175,6 @@ Partial Class mainmenu
         Me.lbluser.Size = New System.Drawing.Size(55, 19)
         Me.lbluser.TabIndex = 13
         Me.lbluser.Text = "Usuario"
-        Me.lbluser.Visible = False
         '
         'GunaCircleButton1
         '
