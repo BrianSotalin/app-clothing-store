@@ -50,7 +50,7 @@
         If stock1 <= 0 Then
             Producto1.Enabled = False
             stck1.Text = 0
-            MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
+            MsgBox("Stock agotado", vbCritical, "@ TrendyClothes Inc. | 2021")
         Else
             stck1.Text = stock1
         End If
@@ -76,7 +76,7 @@
         If stock2 <= 0 Then
             Producto2.Enabled = False
             stck2.Text = 0
-            MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
+            MsgBox("Stock agotado", vbCritical, "@ TrendyClothes Inc. | 2021")
         Else
             stck2.Text = stock2
         End If
@@ -101,7 +101,7 @@
         If stock3 <= 0 Then
             Producto3.Enabled = False
             stck3.Text = 0
-            MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
+            MsgBox("Stock agotado", vbCritical, "@ TrendyClothes Inc. | 2021")
         Else
             stck3.Text = stock3
         End If
@@ -126,7 +126,7 @@
         If stock4 <= 0 Then
             Producto4.Enabled = False
             stck4.Text = 0
-            MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
+            MsgBox("Stock agotado", vbCritical, "@ TrendyClothes Inc. | 2021")
         Else
             stck4.Text = stock4
         End If
